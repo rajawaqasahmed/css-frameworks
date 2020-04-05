@@ -1,0 +1,21 @@
+@import "variables";
+.contact {
+  &-container {
+    padding: 30px;
+    background-color: $bgColor;
+
+    & input {
+      border: 0px;
+      background-color: $mywhite;
+    }
+  }
+  &-services {
+    width: 100%;
+    & tr {
+      border: $bgColor 1px solid;
+    }
+    & td {
+      padding: 10px 30px;
+    }
+  }
+}

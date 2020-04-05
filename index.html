@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Island Website</title>
+    <meta chaarset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="stylesheet/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/d7d2655c87.css" />
+  </head>
+  <body>
+    <!-- header new section -->
+    <nav class="[ navbar navbar-inverse ]">
+      <div class="navbar-header">
+        <button
+          class="navbar-toggle"
+          type="button"
+          data-toggle="collapse"
+          data-target=".js-navbar-collapse"
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="[ brand-short navbar-brand  ]" href="#">YAY</a>
+      </div>
+
+      <div class="[ collapse navbar-collapse js-navbar-collapse ] ">
+        <div class="[ container-fluid ] ">
+          <div class="[ navbar-header  ]">
+            <a class="[  navbar-brand brand-long ]">The YAY Company</a>
+          </div>
+          <ul class="[ nav navbar-nav navbar ]">
+            <li><a href="index.html"> HOME </a></li>
+            <li><a href="news.html">NEWS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+
+          <div class="[ search-component ]">
+            <form action="">
+              <input type="text" placeholder="Search.." name="search" />
+              <button type="submit">GO</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div
+      class="[ carousel fade-carousel slide carousel-fade ]"
+      data-ride="carousel"
+      data-interval="5000"
+      id="ass-carousel"
+    >
+      <!-- White Indicators -->
+      <ol class="[ carousel-indicators ]">
+        <li
+          data-target="#ass-carousel"
+          data-slide-to="0"
+          class="[ active ]"
+        ></li>
+        <li data-target="#ass-carousel" data-slide-to="1"></li>
+        <li data-target="#ass-carousel" data-slide-to="2"></li>
+      </ol>
+      <!-- Content with wrapper for slides -->
+      <div class="[ carousel-inner ]">
+        <div class="[ item slides active carousel-item ]">
+          <div class="[ slide-1 ]"></div>
+        </div>
+        <div class="[ item slides carousel-item ]">
+          <div class="[ slide-2 ]"></div>
+        </div>
+        <div class="[ item slides carousel-item ]">
+          <div class="[ slide-3 ]"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="[ container ]">
+      <!-- content -->
+      <div class="[ row ] ">
+        <div class="[ col-sm-12 ]">
+          <h2>We do YAY things</h2>
+          <p>
+            Lorem ipsum is placeholder text commonly used in the graphic, print,
+            and publishing industries for previewing layouts and visual mockups.
+          </p>
+
+          <div class="non-responsive-tabs">
+            <ul class="[ nav nav-tabs ]">
+              <li class="[ active ]">
+                <a data-toggle="tab" href="#home">NULLAM</a>
+              </li>
+              <li><a data-toggle="tab" href="#menu1">SECOND</a></li>
+              <li><a data-toggle="tab" href="#menu2">THIRD</a></li>
+            </ul>
+
+            <div class="[ tab-content ]">
+              <div id="home" class=" [ tab-pane fade in active ]">
+                <div class="[ container-fluid ]">
+                  <div class="[ left ]">
+                    <img class="[ tab-img ]" src="assets/tab-1.jpg" />
+                  </div>
+                  <div class="[ left tab-inner ]">
+                    <h3>HOME</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="menu1" class="[ tab-pane fade in ]">
+                <div class="[ container-fluid ]">
+                  <div class="[ left ]">
+                    <img class="[ tab-img ]" src="assets/tab-1.jpg" />
+                  </div>
+                  <div class="[ left tab-inner ]">
+                    <h3>SECOND</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="menu2" class="[ tab-pane fade in ]">
+                <div class="[ container-fluid ]">
+                  <div class="[ left ]">
+                    <img class="tab-img" src="assets/tab-1.jpg" />
+                  </div>
+                  <div class="[ left tab-inner ]">
+                    <h3>THIRD</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="responsive-tabs">
+            <div class="[ tab-content-non ]">
+              <div>
+                <div class="[ container-fluid ]">
+                  <div class="[ left tab-inner ]">
+                    <span class="[ non-res-tab ]">NULLAM</span>
+                    <h3>HOME</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="menu1" class="[ tab-pane fade in ]">
+                <div class="[ container-fluid ]">
+                  <div class="[ left tab-inner ]">
+                    <span class="[ non-res-tab ]">NULLAM</span>
+                    <h3>SECOND</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="menu2" class="[ tab-pane fade in ]">
+                <div class="[ container-fluid ]">
+                  <div class="[ left tab-inner ]">
+                    <span class="[ non-res-tab ]">NULLAM</span>
+                    <h3>THIRD</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br />
+    </div>
+    <!-- container finished -->
+
+    <!-- Footer section -->
+    <section class="footer">
+      <div class="[ row ] ">
+        <div class=" [ col-sm-12 ] ">
+          <div class="[ navbar navbar-fixed-bottom container ]">
+            <div class="[ container-fluid ]">
+              <div class="[ left ]">
+                <i class="[ fa fa-facebook-square ]"></i>
+                <i class="[ fa fa-twitter ]"></i>
+                <i class="[ fa fa-android ]"></i>
+                <i class="[ fa fa-apple ]"></i>
+              </div>
+              <div class="[ right ]">
+                Copyright YAY 2019
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/b4c4e30044.js"></script>
+
+    <script src="script/script.js"></script>
+  </body>
+</html>

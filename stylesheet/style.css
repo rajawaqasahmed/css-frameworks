@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Noto+Serif&display=swap");
+h1 {
+  font-size: 2.4rem !important;
+  font-size: 24px !important;
+  font-family: "Noto Serif", serif;
+  color: #000000;
+}
+
+h2 {
+  font-size: 2rem !important;
+  font-size: 20px !important;
+  font-family: "Noto Serif", serif;
+  color: #000000;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #000000;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #555;
+  font-size: 1.6rem !important;
+  font-size: 16px !important;
+  max-width: 100%;
+}
+
+input {
+  font-size: 1.6rem !important;
+  font-size: 16px !important;
+}
+
+button {
+  font-size: 1.3rem !important;
+  font-size: 13px !important;
+  background-color: #ff1493;
+  color: #FFFFFF !important;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  margin-top: 100px !important;
+}
+
+.navbar {
+  margin-bottom: 0px !important;
+}
+.navbar-inverse {
+  background-color: #f1f1f1 !important;
+  border: none !important;
+}
+.navbar-inverse > div {
+  padding: 10px 20px !important;
+}
+.navbar-inverse .navbar-nav {
+  padding: 10px 15px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #000000 !important;
+  padding: 5px 15px !important;
+  border-bottom: 1px solid transparent;
+  font-size: 1.3rem !important;
+  font-size: 13px !important;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #000000 !important;
+  background-color: white !important;
+  border-bottom: 1px solid gray;
+}
+.navbar-brand {
+  font-size: 2.2rem !important;
+  font-size: 22px !important;
+  color: #d20a76 !important;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Noto Serif", serif;
+}
+
+.brand-long {
+  display: block;
+}
+.brand-short {
+  display: none;
+}
+
+.search-component {
+  float: right;
+  padding: 0px;
+  padding: 10px 15px;
+}
+.search-component input {
+  padding: 1px 5px;
+}
+.search-component button {
+  overflow: visible;
+  position: relative;
+  left: -5px;
+  top: -2px;
+  padding: 4px 10px;
+  background-color: #d20a76;
+  color: white;
+  border: none;
+  border-radius: 0px;
+}
+
+/*************************************/
+/*       Fade ass-carousel code      */
+/*************************************/
+.fade-carousel {
+  position: relative;
+  height: 40vh;
+  /************************************************/
+}
+.fade-carousel .carousel-inner .item {
+  height: 40vh;
+  -webkit-transition-property: opacity !important;
+  transition-property: opacity !important;
+}
+.fade-carousel .carousel-indicators > li {
+  margin: 0 2px;
+  background-color: transparent;
+  width: 15px;
+  height: 15px;
+  opacity: 0.7;
+  border-color: #FFFFFF 1px solid;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+  background-color: #FFFFFF;
+}
+.fade-carousel .slides .slide-1 {
+  background-image: url(../assets/banner1.jpg);
+}
+.fade-carousel .slides .slide-2 {
+  background-image: url(../assets/banner2.jpg);
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url(../assets/banner3.jpg);
+}
+
+/******************************************************/
+.fade-carousel .slides .slide-1,
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0 !important;
+}
+
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1 !important;
+}
+
+.tab-content {
+  border-top: 0px;
+  border: solid 1px #ddd;
+  padding: 4%;
+  -webkit-box-shadow: 0px 11px 9px 3px #ededed;
+  -moz-box-shadow: 0px 11px 9px 3px #ededed;
+  box-shadow: 0px 11px 9px 3px #ededed;
+}
+.tab-img {
+  max-width: 190px;
+}
+.tab-inner {
+  padding: 0px 3%;
+  width: 80%;
+  position: relative;
+  top: -23px;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a {
+  border-bottom: 1px solid #FFFFFF !important;
+  position: relative;
+  top: 1px;
+}
+
+.nav-tabs > li > a {
+  color: #555;
+}
+
+.non-responsive-tabs {
+  display: block;
+}
+
+.responsive-tabs {
+  display: none;
+}
+
+.non-res-tab {
+  color: #d20a76;
+}
+
+.navbar-fixed-bottom {
+  background-color: #f1f1f1 !important;
+  width: 100% !important;
+  padding-top: 15px;
+}
+
+.right {
+  color: #808080;
+  float: right;
+  font-size: 1.1rem !important;
+  font-size: 11px !important;
+}
+
+.left {
+  float: left;
+}
+
+.fa {
+  color: #808080;
+  font-size: 2rem !important;
+  padding-right: 10px;
+}
+
+.card-news {
+  border: 1px solid #808080;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.card-body {
+  padding: 20px;
+}
+.card-body-head {
+  padding-bottom: 10px !important;
+}
+
+.contact-container {
+  padding: 30px;
+  background-color: #f1f1f1;
+}
+.contact-container input {
+  border: 0px;
+  background-color: #FFFFFF;
+}
+.contact-services {
+  width: 100%;
+}
+.contact-services tr {
+  border: #f1f1f1 1px solid;
+}
+.contact-services td {
+  padding: 10px 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .non-responsive-tabs {
+    display: none;
+  }
+
+  .responsive-tabs {
+    display: block;
+    margin-top: 50px;
+  }
+
+  .tab-img {
+    display: none;
+  }
+
+  .brand-long {
+    display: none;
+  }
+
+  .brand-short {
+    display: block;
+  }
+
+  .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #808080 !important;
+  }
+
+  .navbar-inverse .navbar-toggle {
+    border: none;
+  }
+
+  .search-component {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .search-component input {
+    width: 70%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

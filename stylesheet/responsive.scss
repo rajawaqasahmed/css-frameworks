@@ -1,0 +1,36 @@
+@import "variables";
+
+// Media screen less than 600px
+@media screen and (max-width: 600px) {
+  .non-responsive-tabs {
+    display: none;
+  }
+  .responsive-tabs {
+    display: block;
+    margin-top: 50px;
+  }
+  .tab-img {
+    display: none;
+  }
+  .brand-long {
+    display: none;
+  }
+  .brand-short {
+    display: block;
+  }
+
+  .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: $mygray !important;
+  }
+  .navbar-inverse .navbar-toggle {
+    border: none;
+  }
+  .search-component {
+    float: none;
+    width: 100%;
+    text-align: center;
+    & input {
+      width: 70%;
+    }
+  }
+}

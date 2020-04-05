@@ -1,0 +1,108 @@
+/*************************************/
+/*       Fade ass-carousel code      */
+/*************************************/
+.fade-carousel {
+  position: relative;
+  height: 40vh;
+  & .carousel {
+    &-inner .item {
+      height: 40vh;
+      -webkit-transition-property: opacity !important;
+      transition-property: opacity !important;
+    }
+    &-indicators > li {
+      margin: 0 2px;
+      background-color: transparent;
+      width: 15px;
+      height: 15px;
+      opacity: 0.7;
+      border-color: $mywhite 1px solid;
+
+      &.active {
+        width: 15px;
+        height: 15px;
+        opacity: 1;
+        background-color: $mywhite;
+      }
+    }
+  }
+  /************************************************/
+  //       Slides images in the backgrounds       //
+
+  & .slides {
+    & .slide-1 {
+      background-image: url(../assets/banner1.jpg);
+    }
+    & .slide-2 {
+      background-image: url(../assets/banner2.jpg);
+    }
+    & .slide-3 {
+      background-image: url(../assets/banner3.jpg);
+    }
+  }
+}
+
+/******************************************************/
+//       Slides images in the backgrounds heights     //
+
+.fade-carousel .slides .slide-1,
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0 !important;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1 !important;
+}
+
+// Home page content
+.tab {
+  &-content {
+    border-top: 0px;
+    border: solid 1px #ddd;
+    padding: 4%;
+    -webkit-box-shadow: 0px 11px 9px 3px rgba(237, 237, 237, 1);
+    -moz-box-shadow: 0px 11px 9px 3px rgba(237, 237, 237, 1);
+    box-shadow: 0px 11px 9px 3px rgba(237, 237, 237, 1);
+  }
+  &-img {
+    max-width: 190px;
+  }
+  &-inner {
+    padding: 0px 3%;
+    width: 80%;
+    position: relative;
+    top: -23px;
+  }
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a {
+  border-bottom: 1px solid $mywhite !important;
+  position: relative;
+  top: 1px;
+}
+.nav-tabs > li > a {
+  color: $bodyColor;
+}
+.non-responsive-tabs {
+  display: block;
+}
+.responsive-tabs {
+  display: none;
+}
+
+.non-res-tab {
+  color: $deeppink;
+}
+

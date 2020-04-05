@@ -1,0 +1,15 @@
+@import "variables";
+
+.card{
+    &-news{
+        border: 1px solid $mygray;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    &-body{
+        padding: 20px;
+        &-head{
+            padding-bottom: 10px !important;
+        }
+    }
+}
