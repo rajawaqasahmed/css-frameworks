@@ -12,18 +12,22 @@
   .tab-img {
     display: none;
   }
-  .brand-long {
-    display: none;
-  }
-  .brand-short {
-    display: block;
-  }
-
-  .navbar-inverse .navbar-toggle .icon-bar {
-    background-color: $mygray !important;
-  }
+}
+// Media screen less than 767px
+@media screen and (max-width: 767px) {
   .navbar-inverse .navbar-toggle {
     border: none;
+    & .icon-bar {
+      background-color: $mygray !important;
+    }
+  }
+  .brand {
+    &-long {
+      display: none;
+    }
+    &-short {
+      display: block;
+    }
   }
   .search-component {
     float: none;
