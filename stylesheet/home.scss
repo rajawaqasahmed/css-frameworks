@@ -1,6 +1,6 @@
-/*************************************/
-/*       Fade ass-carousel code      */
-/*************************************/
+
+// Fade ass-carousel code      
+
 .fade-carousel {
   position: relative;
   height: 40vh;
@@ -26,8 +26,8 @@
       }
     }
   }
-  /************************************************/
-  //       Slides images in the backgrounds       //
+  
+  // Slides images in the backgrounds 
 
   & .slides {
     & .slide-1 {
@@ -42,9 +42,8 @@
   }
 }
 
-/******************************************************/
-//       Slides images in the backgrounds heights     //
 
+// Slides images in the backgrounds heights
 .fade-carousel .slides .slide-1,
 .fade-carousel .slides .slide-2,
 .fade-carousel .slides .slide-3 {
